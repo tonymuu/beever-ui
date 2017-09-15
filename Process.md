@@ -1,6 +1,6 @@
 # Beever Coding Process
-### Creating an Issue
-  - Non-Bug related issue descriptions should follow the story format
+### Creating an Issue:
+  - Non-Defect related issue descriptions should follow the story format
   
     **Example:** 
     ```
@@ -19,9 +19,9 @@
     1. Issues that introduce a new feature should have a `Feature` label
     1. Issues that improve or correct a feature's functionality should have a `Improvement` label
     1. Issues that are blocked by other issues should have a `Blocked` label and a section describing the issues that block it in its description
-    1. Issues that are related to a bug should have a `Bug` label
+    1. Issues that are related to a bug should have a `Defect` label
     
-### Creating a Branch
+### Creating a Branch:
   - The name of a branch name should contain the issue number of its related issue.
   
   **Example:**
@@ -29,11 +29,12 @@
     (#2)-Code-Process
   ```
    
-### Creating a Pull Request
+### Creating a Pull Request:
   - Every pull request should have a related issue.
   - Link all pull requests in their related issues.
+    1. This is to ensure that we can easily perform defect tracking in the future.
   
-### Code Reviews
+### Code Reviews: (Optional depending on impact)
   - A code review will be carried out as part of a `Pull Request`.
   - A code review must be signed off by **at least one other contributor.**
   - Upon completing a code review
